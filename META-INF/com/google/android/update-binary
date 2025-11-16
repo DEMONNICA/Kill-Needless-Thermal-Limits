@@ -1,0 +1,21 @@
+#!/bin/sh
+umask 022
+
+MAGISK_MIN_VER=20400
+MAGISK_FUNCTIONS="/data/adb/magisk/util_functions.sh"
+
+error_exit() {
+    echo "********************************"
+    echo " Please install Magisk v20.4+! "
+    echo "********************************"
+    exit 1
+}
+
+mount /data 2>/dev/null
+
+[ -f "$MAGISK_FUNCTIONS" ] || error_exit
+. "$MAGISK_FUNCTIONS"
+[ "$MAGISK_VER_CODE" -lt "$MAGISK_MIN_VER" ] && error_exit
+
+install_module
+exit 0
