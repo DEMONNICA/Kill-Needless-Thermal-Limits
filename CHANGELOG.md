@@ -2,6 +2,37 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [4.0.0] `THE FINAL END`
+>
+> - Changed the module banner and added a new function `action.sh`
+> - Renamed `SD.sh` to `QCOM.sh` for clearer and more accurate Qualcomm platform identification.
+> - Maintained full functional compatibility with previous Snapdragon-specific optimizations.
+> - Enhanced readability and maintainability by aligning naming conventions across SoC scripts.
+> - Refactored and significantly expanded Mediatek-specific thermal and performance optimizations.
+> - Improved termination of Mediatek thermal daemons, services, and monitoring processes.
+> - Added extensive control over MTK thermal modules, DVFS, PPM, PBM, HPS, and core control mechanisms.
+> - Enhanced CPU and GPU performance locking by forcing maximum frequencies and performance governors.
+> - Extended thermal trip point adjustments to prevent premature throttling.
+> - Implemented additional kernel and proc-level overrides for MTK power and thermal management.
+> - Improved stability by excluding critical system and radio-related processes from termination.
+> - Reworked execution flow for better reliability and maintainability compared to previous versions.
+> - Significantly improved module security and integrity enforcement.
+> - Enhanced compatibility across multiple root solutions and Android versions.
+> - Increased runtime stability with better process and state management.
+> - Delivered cleaner installation and uninstallation workflows.
+> - Improved transparency through richer metadata and user-facing notifications.
+> - Refactored service execution with PID-based process management.
+> - Prevented duplicate background service instances across reboots.
+> - Appended runtime status and active PID to module version string.
+> - Added runtime notifications to confirm successful optimization activation.
+> - Improved overall service stability and lifecycle handling.
+> - Refactored uninstall logic into clear, modular functions.
+> - Improved cache cleanup coverage, including app cache, shader cache, and system cache directories.
+> - Ensured safe and deterministic execution using strict error handling.
+> - Removed residual temporary files and runtime artifacts.
+> - Enhanced reliability and maintainability of the uninstallation process.
+---
+
 > [3.0.0] `FINAL`
 >
 > - customize.sh: Overhauled root detection to support all Magisk variants (Stable/Canary/Kitsune/Alpha), KernelSU (Standard/Next/SukiSU Ultra), and APatch with persistent method tracking and version details.
