@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/9f421788-9331-41b2-bb61-9c4a915aa62f)
+> ![Image](https://github.com/user-attachments/assets/c7c2f0ed-27a5-4187-a269-f7f0018206ac)
 
 > [!NOTE]
 > - Crushes restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces full performance with no compromise by locking trip points, disabling cooling states, and silencing thermal daemons.
@@ -6,15 +6,21 @@
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Snapdragon Optimization. ✔️
-> 2. Mediatek Optimization. ✔️
-> 3. Game and Multitasking optimization. ✔️
+> 1. Brutal Daemon Kill Terminates all thermal services. ✔️
+> 1. Aggressive and dynamic thermal kill for `QCOM and MTK`. ✔️
+> 3. Brutal Thermal Throttling Killer. ✔️
+> 4. Intelligent Thermal Kill detects the value or parameter. ✔️
+> 5. Sets all thermal trip points to extremely high values (125°C+).✔️
+> 6. Throttle Forces GPU governor to performance. ✔️
+> 7. Force Performance Mode Locks CPU governor to `performance`. ✔️
+> 8. Disables PPM, PBM, HPS, DPT, boosting, sched features, and KSM for unrestricted performance. ✔️
+> 9. Disables BCL (Battery Current Limit), PM QoS, core control, power efficient workqueue, and more. ✔️
 <hr/>
 
 > [!TIP]
-> 1. Supports `Magisk` `KernelSU - NEXT` `APatch` and `SukiSU`.
+> 1. Supports `Magisk` `APatch` `SukiSU` `KernelSU` and `other variants`.
 > 2. Minimum Android `10 sdk 29`.
-> 3. Only supports `Snapdragon and MTK`.
+> 3. Only supports `QCOM and MTK`.
 <hr/>
 
 > Download the module here 📦:                  
