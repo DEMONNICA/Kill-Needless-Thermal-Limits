@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/c7c2f0ed-27a5-4187-a269-f7f0018206ac)
+> ![Image](https://github.com/user-attachments/assets/a1df2de8-02e5-4505-a3b0-69f550594991)
 
 > [!NOTE]
 > - Crushes restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces full performance with no compromise by locking trip points, disabling cooling states, and silencing thermal daemons.
@@ -6,15 +6,17 @@
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Brutal Daemon Kill Terminates all thermal services. ✔️
-> 1. Aggressive and dynamic thermal kill for `QCOM and MTK`. ✔️
-> 3. Brutal Thermal Throttling Killer. ✔️
-> 4. Intelligent Thermal Kill detects the value or parameter. ✔️
-> 5. Sets all thermal trip points to extremely high values (125°C+).✔️
-> 6. Throttle Forces GPU governor to performance. ✔️
-> 7. Force Performance Mode Locks CPU governor to `performance`. ✔️
-> 8. Disables PPM, PBM, HPS, DPT, boosting, sched features, and KSM for unrestricted performance. ✔️
-> 9. Disables BCL (Battery Current Limit), PM QoS, core control, power efficient workqueue, and more. ✔️
+> 1. Brutal Daemon Kill terminates and blocks all thermal services and daemons. ✔️
+> 2. Aggressive and adaptive thermal kill for `QCOM and MTK` platforms. ✔️
+> 3. Brutal Thermal Throttling Killer prevents system-enforced performance limits. ✔️
+> 4. Intelligent Thermal Kill dynamically detects and overrides thermal values and parameters. ✔️
+> 5. Sets all thermal trip points to extremely high thresholds (125°C+). ✔️
+> 6. Forces GPU governor into `performance` mode and disables GPU throttling paths. ✔️
+> 7. Forces CPU governor into `performance` mode and locks it persistently. ✔️
+> 8. Disables DVFS, PPM, PBM, HPS, DPT/DCT, boosting, sched features, and KSM for unrestricted performance. ✔️
+> 9. Disables BCL, PM QoS, core control, and other power limiters. ✔️
+> 10. Locks thermal sysfs nodes and critical parameters to prevent reactivation at runtime. ✔️
+> 11. Automatically adapts execution based on root environment and detected SoC (QCOM / MTK). ✔️
 <hr/>
 
 > [!TIP]
