@@ -1,7 +1,7 @@
 > ![Image](https://github.com/user-attachments/assets/a1df2de8-02e5-4505-a3b0-69f550594991)
 
 > [!NOTE]
-> - Crushes restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces full performance with no compromise by locking trip points, disabling cooling states, and silencing thermal daemons.
+> - Eliminates restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces maximum performance by locking thermal thresholds, disabling cooling states, and stopping thermal daemons.
 <hr/>
 
 > [!IMPORTANT]
