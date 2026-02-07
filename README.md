@@ -13,10 +13,8 @@
 > 5. Sets all thermal trip points to extremely high thresholds (125°C+). ✔️
 > 6. Forces GPU governor into `performance` mode and disables GPU throttling paths. ✔️
 > 7. Forces CPU governor into `performance` mode and locks it persistently. ✔️
-> 8. Disables DVFS, PPM, PBM, HPS, DPT/DCT, boosting, sched features, and KSM for unrestricted performance. ✔️
-> 9. Disables BCL, PM QoS, core control, and other power limiters. ✔️
-> 10. Locks thermal sysfs nodes and critical parameters to prevent reactivation at runtime. ✔️
-> 11. Automatically adapts execution based on root environment and detected SoC (QCOM / MTK). ✔️
+> 8. Locks thermal sysfs nodes and critical parameters to prevent reactivation at runtime. ✔️
+> 9. Automatically adapts execution based on root environment and detected SoC (QCOM / MTK). ✔️
 <hr/>
 
 > [!TIP]
@@ -51,6 +49,7 @@ You can also show further appreciation by donating below
 <hr/>
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/illumi666)
-[![](https://img.shields.io/badge/-Trakteer-red?style=for-the-badge)](https://trakteer.id/demonica/tip)
-[![Saweria](https://img.shields.io/badge/-Saweria-yellow?style=for-the-badge&logoColor=white)](https://saweria.co/DEMONICA)
-[![Paypal](https://img.shields.io/badge/Paypal-blue?style=for-the-badge&logoColor=white)](https://www.paypal.com/paypalme/faniadittiya)
+[![Sociabuzz](https://img.shields.io/badge/Sociabuzz-FF6B2A?style=for-the-badge&logo=sociabuzz&logoColor=white)](https://sociabuzz.com/demonica/tribe)
+[![Trakteer](https://img.shields.io/badge/Trakteer-FF0000?style=for-the-badge)](https://trakteer.id/demonica/tip)
+[![Saweria](https://img.shields.io/badge/Saweria-FFC107?style=for-the-badge&logoColor=black)](https://saweria.co/DEMONICA)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/faniadittiya)
