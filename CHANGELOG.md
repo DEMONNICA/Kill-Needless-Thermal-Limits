@@ -43,6 +43,7 @@
 > - Changed the module banner image in `module.prop`.
 > - Fixed Android SDK detection in `customize.sh` — now aborts if `ANDROID_SDK` is empty or non-numeric instead of proceeding with an invalid value.
 > - Fixed SoC name display in `customize.sh` — `\uXXXX` unicode escapes from `socs.json` (e.g. trademark/registered symbols) are now decoded instead of leaking as raw text.
+> - Fixed a `sh` syntax error in `MTK`, `QCOM`, and `UNIV` — replaced non-POSIX process substitution with a variable-based exclusion list.
 > - Fixed APatch `.method` reading in `service.sh` — realigned to the 5-line format; previously misread `ROOT_VERSION`'s line as `APATCH_VER_CODE` and `APATCH_VER_CODE`'s line as `VER_KERNEL`.
 > - Fixed `action.sh` exiting with `exit 1` on successful completion — now exits `0`.
 > - Fixed `uninstall.sh` exiting with `exit 1` on successful completion — now exits `0`.
