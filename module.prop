@@ -1,7 +1,7 @@
 id=KNTL
 name=Kill Needless Thermal Limits
-version=6.0.0
-versionCode=600
+version=6.6.6
+versionCode=666
 author=@illumi
-description=Eliminates restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces maximum performance by locking thermal thresholds, disabling cooling states, and stopping thermal daemons.
+description=Eliminates restrictive thermal throttling on Snapdragon, MediaTek, and other chipsets for maximum sustained performance.
 banner=https://raw.githubusercontent.com/DEMONNICA/Kill-Needless-Thermal-Limits/refs/heads/main/KNTL.jpg
