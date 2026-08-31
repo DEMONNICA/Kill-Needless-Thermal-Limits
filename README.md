@@ -1,55 +1,37 @@
-> ![Image](https://github.com/user-attachments/assets/a1df2de8-02e5-4505-a3b0-69f550594991)
+> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/e51e70d3-45f0-4018-8e11-f939c1aa08f9" />
 
 > [!NOTE]
-> - Eliminates restrictive thermal throttling on Snapdragon and MediaTek chipsets. Forces maximum performance by locking thermal thresholds, disabling cooling states, and stopping thermal daemons.
-<hr/>
+> ````
+> Eliminates restrictive thermal throttling on Snapdragon, MediaTek, and other chipsets for maximum sustained performance.
+> ````
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Brutal Daemon Kill terminates and blocks all thermal services and daemons. ✔️
-> 2. Aggressive and adaptive thermal kill for `QCOM and MTK` platforms. ✔️
-> 3. Brutal Thermal Throttling Killer prevents system-enforced performance limits. ✔️
-> 4. Intelligent Thermal Kill dynamically detects and overrides thermal values and parameters. ✔️
-> 5. Sets all thermal trip points to extremely high thresholds (125°C+). ✔️
-> 6. Forces GPU governor into `performance` mode and disables GPU throttling paths. ✔️
-> 7. Forces CPU governor into `performance` mode and locks it persistently. ✔️
-> 8. Locks thermal sysfs nodes and critical parameters to prevent reactivation at runtime. ✔️
-> 9. Automatically adapts execution based on root environment and detected SoC (QCOM / MTK). ✔️
-<hr/>
+> 1. Brutal Daemon Kill terminates all thermal daemons while protecting critical system processes.
+> 2. Aggressive and adaptive thermal kill for `QCOM`, `MTK`, and other chipsets via a generic fallback.
+> 3. Brutal Thermal Throttling Killer prevents system-enforced performance limits.
+> 4. Intelligent Thermal Kill dynamically detects and overrides thermal values and parameters.
+> 5. Raises thermal trip point thresholds across all chipsets (125°C+) as an early-boot safeguard.
+> 6. On `MTK`, additionally removes CPU frequency limits and disables dedicated power-throttling and GPU throttling policies.
+> 7. Locks thermal nodes and restricts temperature sensor access to prevent reactivation at runtime.
+> 8. Automatically backs up and restores original values when the module is uninstalled.
+> 9. Automatically adapts execution based on root environment and detected SoC (`QCOM` / `MTK` / generic fallback).
 
 > [!TIP]
-> 1. Supports `Magisk` `APatch` `SukiSU` `KernelSU` and `other variants`.
-> 2. Minimum Android `10 sdk 29`.
-> 3. Only supports `QCOM and MTK`.
-<hr/>
-
-> Download the module here 📦:                  
-> [![Telegram URL](https://img.shields.io/badge/Telegram-Join-2CA5E?style=social&logo=telegram)](https://t.me/modulkuntul)
-> <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/34376b0e-4ae2-4278-9d3d-82e8016a87d6" width="40">&nbsp;
-<hr/>
+> 1. Supports `APatch` `KernelSU` `Magisk` and their forks.
+> 2. Minimum Android `10 SDK 29`.
 
 > [!WARNING]
-> Disclaimers 🛡️:
-> - This module is provided as is, without warranty of any kind. Any risks of use are entirely your responsibility. It is recommended to back up important data and configuration before installation. This module was developed in good faith to provide benefits, but the author is not responsible for any damage or problems that may occur as a result of its use.
-<hr/>
+> 1. If you do not fully understand what a modification does, do not apply it.
+> 2. Always have a recovery solution ready — TWRP, ADB, or fastboot — before proceeding.
+> 3. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
+> 4. System modifications can be unpredictable. What works on one device may break another.
+> 5. Any modification applied to the system is your decision. Think before you act.
+> 6. The developer takes no responsibility for any damage, data loss, or device malfunction caused by the use of these works.
+> 7. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
 
 > [!CAUTION]
-> Warning ☢️:
-> 1. Use of this module is the sole responsibility of the user. The developer is not responsible for any damage or malfunctions that may occur as a result of the installation or use of this module.
-> 2. This module can modify certain parts of the system. Under certain conditions or configurations, misuse may cause problems such as bootloops or system instability.
-> 3. Before proceeding with the installation, make sure you have access to a recovery mode such as TWRP or ADB as a safety measure in case something goes wrong.
-> 4. This module modifies various sensitive system parameters. Improper or incompatible configurations may lead to system instability, overheating, performance degradation, or even bootloops. Use responsibly and ensure you understand the risks involved in applying each modification.
-<hr/>
-
-<div align="center">
-If you like this work, please star ⭐ or follow me on GitHub.
-Your support means a lot and helps me to continue developing open source projects.
-You can also show further appreciation by donating below
-<div align="center">
-<hr/>
-
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/illumi666)
-[![Sociabuzz](https://img.shields.io/badge/Sociabuzz-FF6B2A?style=for-the-badge&logo=sociabuzz&logoColor=white)](https://sociabuzz.com/demonica/tribe)
-[![Trakteer](https://img.shields.io/badge/Trakteer-FF0000?style=for-the-badge)](https://trakteer.id/demonica/tip)
-[![Saweria](https://img.shields.io/badge/Saweria-FFC107?style=for-the-badge&logoColor=black)](https://saweria.co/DEMONICA)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/faniadittiya)
+> Disclaimers 🛡️:
+> - Use at your own risk. No guarantees are made regarding stability, compatibility, or safety. Always back up your data before installing anything.
+> - These works are tested on specific devices only. Behavior on other devices may vary significantly.
+> - The author reserves the right to discontinue, modify, or remove any module or plugin at any time without prior notice.
