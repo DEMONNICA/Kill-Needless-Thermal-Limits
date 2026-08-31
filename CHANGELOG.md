@@ -10,6 +10,7 @@
 > - Added `FolkLite` to APatch variant detection in `customize.sh`.
 > - Added `aapt`-based spoofed variant fallback to `detect_root_all()` in `customize.sh`, checked before the generic `ksud` fallback.
 > - Added `UNIV` as a fallback thermal-override target in `customize.sh` for SoCs other than Snapdragon and Mediatek.
+> - Added new chipset entries to `socs.json`.
 > - Added a `sys.boot_completed` wait loop to `service.sh` before running the main thermal-override logic.
 > - Added `UNIV` to the thermal-override script loop in `service.sh`, with `SOC_NAME` fallback to `Unknown`.
 > - Added `restrict_temp_nodes()` — locks temperature nodes under `/sys/devices` via `chmod 000`, except the standard `thermal_zone` path (credit: [@HoyoSlave](https://t.me/HoyoSlave)).
@@ -43,7 +44,9 @@
 > - Changed the module banner image in `module.prop`.
 > - Fixed Android SDK detection in `customize.sh` — now aborts if `ANDROID_SDK` is empty or non-numeric instead of proceeding with an invalid value.
 > - Fixed SoC name display in `customize.sh` — `\uXXXX` unicode escapes from `socs.json` (e.g. trademark/registered symbols) are now decoded instead of leaking as raw text.
-> - Fixed a `sh` syntax error in `MTK`, `QCOM`, and `UNIV` — replaced non-POSIX process substitution with a variable-based exclusion list.
+> - Fixed a `sh` syntax error in `MTK` and `QCOM` — replaced non-POSIX process substitution with a variable-based exclusion list.
+> - Fixed `pgrep` calls in `MTK` and `QCOM` — removed the `-i` flag, which Toybox's `pgrep` doesn't support.
+> - Fixed `pgrep -fl` in `customize.sh` — changed to `pgrep -fa` for Toybox compatibility.
 > - Fixed APatch `.method` reading in `service.sh` — realigned to the 5-line format; previously misread `ROOT_VERSION`'s line as `APATCH_VER_CODE` and `APATCH_VER_CODE`'s line as `VER_KERNEL`.
 > - Fixed `action.sh` exiting with `exit 1` on successful completion — now exits `0`.
 > - Fixed `uninstall.sh` exiting with `exit 1` on successful completion — now exits `0`.
